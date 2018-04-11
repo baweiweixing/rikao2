@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + "px";
+    </script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <p class="picbox"><img src="img/1.png"></p>
+            无连接
+            <div class="box">
+                <img class="img1" src="img/2.png">
+                <img class="img2" src="img/3.png">
+            </div>
+        </header>
+        <section class="section">
+            <div class="content">
+                <dl>
+                    <dt><img src="img/sectionimg.png"></dt>
+                    <dd>电源</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.png"></dt>
+                    <dd>首页</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/5.png"></dt>
+                    <dd>菜单</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/6.png"></dt>
+                    <dd>截屏</dd>
+                </dl>
+            </div>
+        </section>
+        <div class="list swiper-container">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide" style="background:red"></li>
+                <li class="swiper-slide" style="background:blue"></li>
+                <li class="swiper-slide" style="background:skyblue"></li>
+                <li class="swiper-slide" style="background:hotpink"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="js/swiper.min.js"></script>
+<script>
+    new Swiper(".list")
+</script>
+
+</html>
